@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Processing Application</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1>Data Processing Application</h1>
+  
+  <form id="personForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required value="Alice"><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required value="30"><br>
+
+    <label for="height">Height (in meters):</label>
+    <input type="number" step="0.01" id="height" name="height" required value="1.75"><br>
+
+    <label for="isStudent">Is Student:</label>
+    <input type="checkbox" id="isStudent" name="isStudent"><br>
+
+    <button type="button" onclick="processWithoutWebWorker()">Process without Web Worker</button>
+    <button type="button" onclick="processWithWebWorker()">Process with Web Worker</button>
+  </form>
+
+  <div id="resultWithoutWebWorker"></div>
+  <div id="resultWithWebWorker"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
