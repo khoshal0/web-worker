@@ -5,7 +5,6 @@ onmessage = function (event) {
   };
   
   function processData(data) {
-    // Replace this with your heavy data processing logic
-    return data.sort((a, b) => a - b);
+    return data.sort((a, b) => a[1] - b[1]);
   }
   
