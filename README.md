@@ -3,7 +3,7 @@
 The Data Processing Application is a web project that demonstrates the use of Web Workers for efficient data processing. The dataset includes information about 100 people. The application performs heavy tasks like sorting large arrays and complex calculations, comparing the performance with and without Web Workers.
 
 2:- Instructions on how to run the project locally.
-    *Clone the Repository: 
+    *Clone the Repository: https://github.com/khoshal0/web-worker.git
     *Open the Project in a Code Editor: Open the project folder in your preferred code editor (e.g., Visual Studio Code, Atom, 
      Sublime Text).
     *Install Dependencies (if any):  Check if there are any dependencies listed in the project and install them. Use the       
