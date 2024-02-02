@@ -14,11 +14,13 @@ The Data Processing Application is a web project that demonstrates the use of We
 3:- The integration of Web Workers in the Data Processing Application resulted in a tangible enhancement of performance and user experience. The findings emphasize the importance of leveraging background threads for computationally intensive tasks, showcasing the effectiveness of Web Workers in modern web development.
 
 4:- Resources:
-MDN Web Docs on Web Workers: https://developer.mozilla.org/en-
+MDN Web Docs on Web Workers: 
+https://developer.mozilla.org/en-
 US/docs/Web/API/Web_Workers_API
 HTML5 Rocks - The Basics of Web Workers:
 https://www.html5rocks.com/en/tutorials/workers/basics/
-Web workers in JavaScript and when to use them: https://benestudio.co/web-workers-
+Web workers in JavaScript and when to use them:
+https://benestudio.co/web-workers-
 in-javascript-and-when-to-use-them/
 
 
